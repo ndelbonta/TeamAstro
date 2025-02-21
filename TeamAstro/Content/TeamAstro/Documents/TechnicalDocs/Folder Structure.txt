@@ -1,0 +1,50 @@
+📂 Content/
+├── 📂 Art/ (All artistic assets: 3D models, textures, animations, VFX, UI, etc.)
+│ ├── 📂 Characters/ (Meshes, materials, animations per character)
+│ ├── 📂 Environment/ (Props, landscapes, foliage, textures)
+│ ├── 📂 VFX/ (Particles, shaders, Niagara systems)
+│ ├── 📂 UI/ (Widgets, icons, fonts, HUD elements)
+│ └── 📂 Materials/ (Master & instance materials for modular use)
+│
+├── 📂 Blueprints/ (All Blueprint-related files for game logic)
+│ ├── 📂 Characters/ (Player, NPCs, AI logic)
+│ ├── 📂 UI/ (Widget Blueprints, menus, HUDs)
+│ ├── 📂 Gameplay/ (Core mechanics, pickups, power-ups, interactions)
+│ ├── 📂 Levels/ (Level-specific Blueprints like triggers, doors, events)
+│ └── 📂 Utilities/ (Helper functions, global settings, save/load systems)
+│
+├── 📂 Levels/ (Maps for gameplay & testing)
+│ ├── 📂 Main/ (Final game levels)
+│ ├── 📂 Test/ (Prototyping, mechanics testing levels)
+│ └── 📂 Blockout/ (Early-level graybox/blockout maps)
+│
+├── 📂 Audio/ (All sound-related assets)
+│ ├── 📂 Music/ (Background music, loops, ambient tracks)
+│ ├── 📂 SFX/ (Sound effects: footsteps, UI clicks, gunshots, etc.)
+│ ├── 📂 Voices/ (Voice-over files if applicable)
+│ └── 📂 SoundCues/ (Sound Cue files for mixing sounds)
+│
+├── 📂 Animations/ (All skeletal and procedural animations)
+│ ├── 📂 Characters/ (Individual folders for each character’s animations)
+│ ├── 📂 Montages/ (Animation montages for combo moves, special actions)
+│ ├── 📂 Blends/ (Blend spaces, state machines)
+│ └── 📂 Sequences/ (Cinematic or in-game cutscenes)
+│
+├── 📂 Code/ (C++ source files if the project includes native code)
+│ ├── 📂 Core/ (Game mode, player controller, essential systems)
+│ ├── 📂 AI/ (Pathfinding, behavior trees, perception systems)
+│ ├── 📂 Networking/ (Multiplayer components, replication logic)
+│ └── 📂 Gameplay/ (Weapons, movement, interaction logic)
+│
+├── 📂 FX/ (Special effects, shaders, and post-processing materials)
+│ ├── 📂 PostProcess/ (Post-processing volumes, LUTs, color grading)
+│ ├── 📂 Particles/ (Niagara or Cascade effects like smoke, fire, explosions)
+│ └── 📂 Shaders/ (Custom materials for unique visual effects)
+│
+├── 📂 Documents/ (Reference files, design docs, storyboards)
+│ ├── 📂 GameDesign/ (Game mechanics, level design docs)
+│ ├── 📂 ArtReferences/ (Mood boards, concept art)
+│ ├── 📂 TechnicalDocs/ (Scripting guidelines, team conventions)
+│ └── 📂 BugReports/ (Testing and bug-tracking notes)
+│
+└── 📂 ThirdParty/ (Any external assets, plugins, or marketplace content)
