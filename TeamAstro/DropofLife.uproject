@@ -14,6 +14,17 @@
 		{
 			"Name": "HDRIBackdrop",
 			"Enabled": true
+		},
+		{
+			"Name": "GameInput",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "CodeView",
+			"Enabled": true
 		}
 	]
 }
